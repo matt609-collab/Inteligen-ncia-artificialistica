@@ -4,7 +4,6 @@ const caixaAlternativas = document.querySelector(".caixa-alternativas");
 const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
 const imagem = document.querySelector(".imagecarroussel");
-
 const perguntas = [
   {
     enunciado:
@@ -87,7 +86,7 @@ const perguntas = [
   {
     enunciado:
       "Em 2049... como você acha que o futuro será com a presença da IA?",
-    imagem: "IMG/pergunta6.jpg",
+    imagem: "IMG/pergunta6.png",
     
       alternativas: [
       {

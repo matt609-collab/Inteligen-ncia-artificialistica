@@ -1,7 +1,7 @@
 :root {
     --cor-fundo: #01080E;
-    --cor-principal: #0B0D20;
-    --cor-secundaria: #212333;
+    --cor-principal: #111425;
+    --cor-secundaria: #252525;
     --cor-destaque: #2BDEFD;
     --cor-texto: #D7F9FF;
 }
@@ -20,6 +20,9 @@ body{
     width: 90%;
     text-align: center;
     padding: 20px;
+    font-size: 30px;
+    padding: 50px;
+    border-radius: 30px
 }
 
 h1{
@@ -29,9 +32,12 @@ h1{
 button {
     background-color: var(--cor-secundaria);
     color: var(--cor-texto);
+    font-size: 16px;
     border: none;
     border-radius: 15px;
     padding: 15px;
+    height: 100px;
+    width: 400px;
     transition: background-color 0.3s;
 }
 
